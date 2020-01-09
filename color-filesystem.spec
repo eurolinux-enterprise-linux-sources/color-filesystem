@@ -1,6 +1,6 @@
 Name:           color-filesystem
 Version:        1
-Release:        12%{?dist}
+Release:        13%{?dist}
 Summary:        Color filesystem layout
 
 Group:          System Environment/Base
@@ -47,6 +47,9 @@ EOF
 %{_sysconfdir}/rpm/macros.color
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1-13
+- Mass rebuild 2013-12-27
+
 * Fri Mar 08 2013 Ralf Corsépius <corsepiu@fedoraproject.org> - 1-12
 - Remove %%config from %%{_sysconfdir}/rpm/macros.*
   (https://fedorahosted.org/fpc/ticket/259).
